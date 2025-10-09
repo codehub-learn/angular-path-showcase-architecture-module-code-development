@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
-  declarations: [
+  declarations: [ // component/pipe/directive
     App
   ],
   imports: [
