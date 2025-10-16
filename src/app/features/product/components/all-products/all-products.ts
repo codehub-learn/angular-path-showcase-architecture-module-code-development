@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import {ExampleService} from '../../../../shared/services/example-service';
 
 @Component({
-  selector: 'app-customer-details',
+  selector: 'app-all-products',
   standalone: false,
-  templateUrl: './customer-details.html',
-  styleUrl: './customer-details.scss',
-  providers: [ExampleService]
+  templateUrl: './all-products.html',
+  styleUrl: './all-products.scss'
 })
-export class CustomerDetails {
+export class AllProducts {
   id: number;
 
   constructor(private exampleService: ExampleService) {

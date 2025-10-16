@@ -6,6 +6,11 @@ const routes: Routes = [
     path: 'customers',
     loadChildren: () => import('./features/customer/customer-module')
       .then((m) => m.CustomerModule),
+  },
+  {
+    path: 'products',
+    loadChildren: () => import('./features/product/product-module')
+      .then((m) => m.ProductModule),
   }
 ];
 
